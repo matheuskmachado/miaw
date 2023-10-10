@@ -5,7 +5,7 @@
                 try {
                     embeddedservice_bootstrap.settings.language = 'pt_BR';
 
-                    var token = '';
+                    var token = 'eyJraWQiOiIxMjM0NSIsImFsZyI6IlJTMjU2In0.eyJpc3MiOiJ0ZXN0SXNzdWVyIiwic3ViIjoidXNlcjEiLCJleHAiOjE2ODE0MzAzNjYsImlhdCI6MTY4MTQyNDM2Nn0.jXw6aYFXNJOWntkHMiHw_5h-u-Ic-jhLJG_TzgdbXoJPE3PvCzEi5U1icfQygEdNfwv1Uw04dVnMPBrkB0hEP-kKM1Ot9LidQAv9DHlj9Ns9PJSePUF3xmFUYpBkeUt5Wvw8ag6f-_LGhjciy0W8xHYXHaDwWohnj9TaJ1sR_A3ZNjoZBWq6kVM5szQCFdg_AC_bwSw488OhneYifi2bZMYEPJ7iAh-FPGeAOOp7XRbdPWB8vbqBjfwKHDNFuj1L6SkQ3svwvqPwrh3iHDokm8sT6AkjK0ntAWME01duWC9RLcqrI6E87gBaq86dFBrSTTtZ2JwbBiqfUNfO2S9Y9w';
 
                     window.addEventListener("onEmbeddedMessagingReady", () => {
 
