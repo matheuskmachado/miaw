@@ -5,13 +5,13 @@
                 try {
                     embeddedservice_bootstrap.settings.language = 'pt_BR';
 
-                    var token = '';
+                    var token;
 
                     window.addEventListener("onEmbeddedMessagingReady", () => {
 
                         embeddedservice_bootstrap.userVerificationAPI.setIdentityToken({
                             identityTokenType : "JWT", identityToken : token});
-
+`
                         console.log("onEmbeddedMessagingReadyTkn>> ");
                     });
 
