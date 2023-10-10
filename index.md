@@ -12,7 +12,7 @@
                         embeddedservice_bootstrap.userVerificationAPI.setIdentityToken({
                             identityTokenType : "JWT", identityToken : token});
 `
-                        console.log("onEmbeddedMessagingReadyTkn>> ");
+                        console.log("onEmbeddedMessagingReadyTkn> ");
                     });
 
                     embeddedservice_bootstrap.init(
