@@ -8,14 +8,14 @@
                     window.addEventListener("onEmbeddedMessagingReady", () => {
 
                         embeddedservice_bootstrap.userVerificationAPI.setIdentityToken({
-                            identityTokenType : "JWT", identityToken : null});
+                            identityTokenType : "JWT", identityToken : ""});
 
-                        console.log("onEmbeddedMessagingReadyN>> ");
+                        console.log("onEmbeddedMessagingReadY>> ");
                     });
 
                     embeddedservice_bootstrap.init(
                         '00D3B000000IPck',
-                        'CRCMiawQDB',
+                        'CRC_QuemDisseBerenice',
                         'https://grupoboticario--uat.sandbox.my.site.com/ESWCRCMiawQDB1684273993056',
                         {
                             scrt2URL: 'https://grupoboticario--uat.sandbox.my.salesforce-scrt.com'
