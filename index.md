@@ -25,6 +25,20 @@
                     console.error('Error loading Embedded Messaging: ', err);
                 }
             };
+
+            function onUserLogout() {
+                embeddedservice_bootstrap.userVerificationAPI
+                    .clearSession()
+                    .then(() => {
+                        console.log("User Logout.");
+                    })
+                    .catch((error) => {
+                        console.log("User Logout Error.");
+                    })
+                    .finally(() => {
+                        
+                    });
+            }
         </script>
         <script type='text/javascript' src='https://grupoboticario--uat.sandbox.my.site.com/ESWCRCMiawQDB1684273993056/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
     </body>
